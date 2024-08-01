@@ -1,0 +1,19 @@
+<div class="sidenav">
+    <ul>
+      <li>
+        <a href="#">Dashboard</a>
+      </li>
+      <li>
+        <a href="#" (click)="toggleDropdown('products')">Products</a>
+        <ul class="dropdown" *ngIf="showDropdown === 'products'">
+          <li><a href="#">Product 1</a></li>
+          <li><a href="#">Product 2</a></li>
+          <li><a href="#">Product 3</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Orders</a>
+      </li>
+    </ul>
+  </div>
+  

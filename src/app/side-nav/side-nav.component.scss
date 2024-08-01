@@ -1,0 +1,46 @@
+.sidenav {
+    width: 250px;
+    background-color: #333;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidenav ul li {
+    padding: 8px 8px;
+    font-size: 20px;
+    font-weight: bold;
+    // font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+  }
+  
+  .sidenav ul li a {
+    text-decoration: none;
+    color: #f1f1f1;
+    display: block;
+  }
+  
+  .sidenav ul li a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .sidenav ul li .dropdown {
+    display: none;
+    padding-left: 20px;
+  }
+  
+  .sidenav ul li:hover .dropdown {
+    display: block;
+  }
+  
